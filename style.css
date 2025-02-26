@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Inter", serif;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px 20px 50px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.nav_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.nav_btn button{
+    color: white;
+    background-color: #FC004A;
+    border: none;
+    border-radius: 12px;
+    width: 188px;
+    height: 30px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+.main_box{
+    display: flex;
+    justify-content: start;
+    padding: 45px;
+}
+.main_div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.main_dir{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 20px 4px gray;
+    border-radius: 30px;
+    padding: 10px;
+    justify-content: center;
+    height: 350px;
+    font-size: x-small;
+}
+.buton_box{
+    display: flex;
+    justify-content: end;
+}
+.buton_box button{
+    background-color: #FC004A;
+    border: none ;
+    border-radius: 12px;
+    width: 45px;
+    height: 45px;
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.buton_box button:active{
+    width: 50px;
+    height: 50px;
+}
+.price{
+    color: #FC004A;
+}
+footer{
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+    gap: 40px;
+    align-items: center;
+    margin-top: 30px;
+}
